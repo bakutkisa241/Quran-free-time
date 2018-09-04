@@ -197,7 +197,7 @@ q!alkursi-stop
 
 const devs = ["450711003324350485" , "483092158786568203"]
 
-const adminprefix = "!";
+const adminprefix = "q!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
