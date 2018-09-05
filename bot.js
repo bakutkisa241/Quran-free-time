@@ -7,7 +7,7 @@ const yt = require('ytdl-core');
 
 
 client.on("message", message => {
-  if (message.content === "+help-quran") {
+  if (message.content === "q!help") {
          message.react("✅")
             message.react("📬")
    const embed = new Discord.RichEmbed() 
